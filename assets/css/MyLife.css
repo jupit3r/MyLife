@@ -1,0 +1,288 @@
+/************************************ SOCIAL ICON FONT ************************************/
+
+			@import url("font/fontello.css"); 
+
+/********************************* SMOOTH SCROLLING SUPPORT *******************************/
+
+			html, body, div, span, object, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, acronym, address, cite, code, del, em, img, small, var, i, ol, ul, li, fieldset, form, label, figure, footer, header, menu, nav, output, section, time, audio, video {
+				margin: 0;
+				padding: 0;
+				border: 0;
+				font-size: 100%;
+				font: inherit;
+				vertical-align: baseline;
+				outline: none;
+				-webkit-font-smoothing: antialiased;
+				-webkit-text-size-adjust: 100%;
+				-webkit-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+
+/************************************* ELEMENTS CSS ***************************************/
+
+			h1 {
+				font-family: Quicksand;
+				font-size: 72px;
+				text-align: center;	
+				margin-top: 100px;
+			}
+
+			h2, h3, h4, h5, h6 {
+				font-family: Quicksand, 400;
+				font-size: 50px;
+				text-align: center;
+			}
+
+			p {
+				background-size: cover;
+				font-family: Nixie One; 
+				font-size: 34px;
+				text-align: center;
+			}
+
+/************************************ SIGN UP FORMS ************************************/
+
+			form {
+				background-size: cover;
+				background-color: rgba(245, 245, 245, .9);
+				border-radius: 15px;
+				font-family: Quicksand;
+				font-style: bold;
+				font-size: 28px;
+				padding: 15px;
+				margin: 15px;
+				width: auto;
+			}
+
+			input {
+				font-family: Quicksand;
+				font-size: 24px;
+				height: 28px;
+				width: 60%;	
+				float: right;
+				}
+
+			button{
+				background-color: rgba(186, 85, 211, .5);
+				font-family: Quicksand;
+				font-size: 50px;
+				border-radius: 15px;
+				width: 100%;
+				height: 85px;
+			}
+
+			#contact {
+				width: 100%;
+			}
+
+			.checkbox {
+				float: left;
+				margin-left: auto;
+				width: 50px;
+			}
+
+/************************************ NAVIGATION CONTAINER - FIXED ************************************/
+
+			.container {
+				background-size: cover;
+				margin:0 auto;
+				padding:0 auto;
+				width: 100%;
+			}
+
+/************************************ HEADER NAVIGATION - FIXED ************************************/
+
+			#nav {
+				background-color: rgba(255, 255, 255, .9);
+				background-size: cover;
+				display: block;
+				position: fixed;
+				font-family: Quicksand;
+				height: auto;
+				width: 100%;
+			}
+
+			#navList {
+				overflow: hidden;
+				width: auto;
+			}
+
+			#navList li {
+				background-size: cover;
+				border-radius: 15px;
+				font-size: 20px;
+				margin: 8px;
+				margin-left: 50px;
+				margin-right: 50px;
+				display: inline;
+				float: left;
+				text-decoration: none;
+				padding: 5px;
+			}
+
+			#navList li a {
+				background-size: cover;
+				color: rgba(84, 84, 84, .8);
+				display: inline;
+				float: left;
+				margin: 8px;
+				padding-top: 4px ;
+				padding-bottom: 4px;
+				padding-left:16px;
+				padding-right: 16px;
+				font-size: 25px;
+				line-height: 40px;
+				font-weight: bold;
+				text-decoration: none;
+				-webkit-transition: all 0.15s linear;
+				transition: all 0.15s linear;
+			}
+
+			#navList li a:hover{
+				border-radius: 15px;
+				color: #7d8079;
+				background: rgba(192, 192, 192, .8);
+			}
+
+/******************************** STICKY NAVIGATION - PROGRESS BAR *********************************/
+
+			.active { 
+				background: rgba(186, 85, 211, .5);
+				border-radius: 15px;
+			}
+
+/************************************ FOOTER NAVIGATION - FIXED ************************************/
+
+			#footer {
+				background-color: rgba(255, 255, 255, .9);
+				background-size: cover;
+				position: fixed;
+				margin: 10px;
+				top: 20%;
+				right: 0;
+				height: auto;
+				width: auto;
+				border-radius: 15px;
+			}
+
+			#navfooter {
+				overflow: hidden;
+				margin: auto;
+			}
+
+			#navfooter li {
+				background-size: cover;
+				border-radius: 15px;
+				margin: auto;
+				padding: 12px;
+				text-decoration: none;
+				width: auto;
+			}
+
+			#navfooter li a {
+				background-size: cover;
+				color: #53574d;
+				font-size: 40px;
+				font-weight: bold;
+				text-decoration: none;
+				-webkit-transition: all 0.15s linear;
+				transition: all 0.15s linear;
+			}
+
+			#navfooter li a:hover{
+				border-radius: 15px;
+				color: #7d8079;
+				background: rgba(192, 192, 192, .8);
+			}
+
+/************************************ CONTENT SLIDER ************************************/
+
+			#content { 
+				width: 100%; 
+				overflow: hidden; 
+			}
+			
+/************************************ FIRST SLIDER - HOME ************************************/
+
+			#home {
+				background-attachment: fixed;
+				background-color: rgba(238, 210, 238, .8);
+				-webkit-background-size: cover;
+				min-height: 1200px;
+				padding-top: 150px;
+				margin-bottom: 40px;
+			}
+
+/************************************ SECOND SLIDER - MEMORIES ************************************/
+
+			#memories {
+				background-attachment: fixed;
+				background-color: rgba(127, 255, 212, .8);
+				-webkit-background-size: cover;
+				min-height: 1200px;
+				padding-top: 150px;
+				margin-bottom: 40px;
+			}
+
+/************************************ THIRD SLIDER - PHOTOS ************************************/
+
+			#photos {
+				background-attachment: fixed;
+				background-color: rgba(176, 226, 255, .8);
+				-webkit-background-size: cover;
+				background-size: cover;
+				min-height: 1200px;
+				padding-top: 150px;
+				margin-bottom: 40px;
+			}
+
+/************************************ FORTH SLIDER - SHARE ************************************/
+
+			#share {
+				background-attachment: fixed;
+				background-color: rgba(255, 236, 139, .8);
+				-webkit-background-size: cover;
+				background-size: cover;
+				min-height: 1200px;
+				padding-top: 150px;
+				margin-bottom: 40px;
+			}
+
+/************************************ FIFTH SLIDER - FEATURES ************************************/
+
+			#features {
+				background-attachment: fixed;
+				background-color: rgba(191, 62, 255, .8);
+				-webkit-background-size: cover;
+				background-size: cover;
+				min-height: 1200px;
+				padding-top: 150px;
+				margin-bottom: 40px;
+			}
+
+/************************************ SIXTH SLIDE - SIGN UP ************************************/
+
+			#signUp {
+				background-attachment: fixed;
+				background-color: rgba(205, 51, 51, .8);
+				-webkit-background-size: cover;
+				background-size: cover;
+				min-height: 1200px;
+				padding-top: 150px;
+				margin-bottom: 40px;
+			}
+
+/************************************ SLIDDER WRAPPER ************************************/	
+
+			.wrapper {
+				width: 800px;
+				min-width: 580px;
+				height: 1075px;
+				margin: 0 auto;
+			}
+
+
+
+
+
+/*     lvw/.     */

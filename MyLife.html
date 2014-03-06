@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>MyLife</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Jupiter">
+		<link rel="stylesheet" href="assets/css/MyLife.css">
+
+<!------------------------------------------SMOOTHNESS jQUERY---------------------------------------------->
+
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+
+<!-------------------------------------------GOOGLE FONTS-------------------------------------------------->
+
+		<link href='http://fonts.googleapis.com/css?family=Nixie+One|Quicksand:300,400|Alice' rel='stylesheet' type='text/css'>
+
+<!----------------------------------------------STICKY NAVIGATION------------------------------------------>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="assets/js/stickUp.min.js"></script>
+		<script type="text/javascript">
+			jQuery(function($) {
+				$(document).ready( function() {
+					$('.navbar').stickUp({
+						parts: {
+							0:'home',
+							1:'memories',
+							2:'photos',
+							3:'share',
+							4:'features',
+							5:'signUp',
+						},
+						itemClass: 'menuItem',
+						itemHover: 'active'
+					});
+				});
+			});
+		</script>
+
+<!------------------------------------------------DATE PICKER---------------------------------------------->
+
+  		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  			<script>
+  				$(function() {
+    				$("#datepicker").datepicker();
+  				});
+  			</script>
+	</head>
+
+	<body>
+
+<!----------------------------------------------HEADER NAVIGATION------------------------------------------>
+
+		<div id="nav" class="navbar">
+			<div class="container">
+				<ul id="navList">
+					<li class"current" ><a href="#home"  class="menuItem">Home</a></li>
+					<li class"memories"><a href="#memories" class="menuItem">Memories</a></li>
+					<li class"photos"><a href="#photos" class="menuItem">Photos</a></li>
+					<li class"share"><a href="#share" class="menuItem">Share</a></li>
+					<li class"features"><a href="#features" class="menuItem">Features</a></li>
+					<li class"signUp"><a href="#signUp" class="menuItem">Sign Up</a></li>
+				</ul><!--/#navList-->
+			</div><!--/.containter-->
+		</div><!--/#nav-->
+
+<!----------------------------------------------FOOTER NAVIGATION------------------------------------------>
+
+		<div id="footer">
+			<div class="containter">
+				<ul id="navfooter">
+					<li><a href="https://www.facebook.com"><span class="icon-facebook"></span></a></li>
+					<li><a href="https://twitter.com"><span class="icon-twitter"></span></a></li>
+					<li><a href="https://www.tumblr.com/"><span class="icon-tumblr"></span></a></li>
+					<li><a href="https://plus.google.com"><span class="icon-gplus"></span></a></li>
+					<li><a href="http://instagram.com/"><span class="icon-instagramm"></span></a></li>
+					<li><a href="https://login.live.com/"><span class="icon-mail"></span></a></li>
+				</ul><!--/#navfooter-->
+			</div><!--/.containter-->
+		</div><!--/#footer-->
+
+<!-----------------------------------------------FIRST SLIDER---------------------------------------------->
+
+		<div id="content">
+			<section id="home" class="home">
+				<div class="wrapper"><!--THIS CLAS CREATES THE DIFFERENT SECTIONS IN ONE WEBPAGE-->
+					<h1>MyLife</h1>
+					<p style="font-family:Quicksand; font-size: 40px">Start A New Chapter Of Your Life</p>
+					<br><!--/BREAK/-->
+					<br><!--/BREAK/-->
+					<img src="Images/MyLifeIntro.gif"><!--INTRO SCREENSHOT-->
+				</div><!--/.wrapper-->
+			</section>
+		</div><!--/#content-->
+
+<!---------------------------------------------SECOND SLIDER---------------------------------------------->
+
+		<section id="memories" class="memories">
+			<div class="wrapper"><!--THIS CLASS CREATES THE DIFFERENT SECTIONS IN ONE WEBPAGE-->
+				<h2>Remember The Best Moments Of Your Life</h1>
+				<p>Take note of everything in your life.  With MyLife you can make long entries or jot down little moments. Each entry gets time-stamped so you know when you wrote it.</p>
+				<br><!--/BREAK/-->
+				<img src="Images/iPhoneMemories.gif"><!--MEMORIES SCREENSHOT-->
+			</div><!--/.wrapper-->
+		</section><!--/#memories-->
+
+<!-----------------------------------------------THIRD SLIDER---------------------------------------------->
+
+		<section id="photos" class="photos">
+			<div class="wrapper"><!--THIS CLASS CREATES THE DIFFERENT SECTIONS IN ONE WEBPAGE-->
+				<h3>Add Photos And Videos To Your Entry</h2>
+				<p>Add photos or videos to your diary entry.  You can add filters, borders and even edit directly within the app.  Drag the photo where you want and add titles.  Each photo gets time-stamped too, so you'll never forget when you took them.</p>
+				<br><!--/BREAK/-->
+				<img src="Images/iPhonePhotos.gif"><!--PHOTOS SCREENSHOT-->
+			</div><!--/.wrapper-->
+		</section><!--/#photos-->
+
+<!-----------------------------------------------FORTH SLIDER---------------------------------------------->
+
+		<section id="share" class="share">
+			<div class="wrapper"><!--THIS CLASS CREATES THE DIFFERENT SECTIONS IN ONE WEBPAGE-->
+				<h4>Share What You Want With Who You Want</h2>
+				<p>With MyLife you can keep all your entries secret and hidden from prying eyes, or you can share it with your friends.  Easily upload your entry to Facebook, Tumblr, or Twitter.  You can also Email it to keep it private between you and your special friends</p>
+				<br><!--/BREAK/-->
+				<img src="Images/iPhoneSocial.gif"><!--SOCIAL SCREENSHOT-->
+			</div><!--/.wrapper-->
+		</section><!--/#share-->
+
+<!-----------------------------------------------FIFTH SLIDER---------------------------------------------->
+
+		<section id="features" class="features">
+			<div class="wrapper"><!--THIS CLASS CREATES THE DIFFERENT SECTIONS IN ONE WEBPAGE-->
+				<h5>And Much MUCH More!</h2>
+				<p>Save all your entries to iCloud, so you can have them anywhere at anytime.  Choose from different templates, fonts, colours and stickers to decorate and customize your entries.  Add a password to your diary so that only you can read your entries.  Add friends from Facebook, Twitter or your own contacts.  Use your current location to remember vacations, or family outings.</p>
+				<br><!--/BREAK/-->
+				<img src="Images/FeaturesIcon.gif"><!--FEATURE ICONS SCREENSHOT-->
+			</div><!--/.wrapper-->
+		</section><!--/#features-->
+
+<!-----------------------------------------------SIXTH SLIDER---------------------------------------------->
+
+		<section id="signUp" class="signUp">
+			<div class="wrapper"><!--THIS CLASS CREATES THE DIFFERENT SECTIONS IN ONE WEBPAGE-->
+				<h6>Sign Up Today And Start Capturing The Best Moments Of Your Life</h2>
+				<p>It's free and easy to use.</p>
+				<div id="contact">
+					<form>
+						<p>Sign Up to MyLife</p>
+						<br><!--/BREAK/-->
+						<div>
+							First Name:<input name="Name"></input>
+						</div>
+						<div>
+							Last Name:<input name="Name"></input>
+						</div>
+						<div>
+							E-mail:<input name="E-Mail"></input>
+						</div>
+						<br><!--/BREAK/-->
+						<div>
+							<input class="checkbox"type="checkbox" name="Sign Up">Receive Updates and Notifications</input>
+						</div>
+						<br><!--/BREAK/-->
+						<div>
+							<button type="Submit" value="Submit">SUBMIT</button>
+						</div>
+					</form>
+				</div><!--/#contact-->
+				<div id="contact">
+					<form>
+						<p>Create a MyLife ID</p>
+						<br><!--/BREAK/-->
+						<div>
+							Username:<input name="username"></input>
+						</div>
+						<div>
+							Birthday:<input type="text" id="datepicker">
+						</div>
+						<div>
+							Password:<input type='Password' name="Password"></input>
+						</div>
+						<div>
+							Confirm Password:<input type='Password' name="Password"></input>
+						</div>
+						<br><!--/BREAK/-->
+						<div>
+							<button type="Submit" value="Submit">SUBMIT</button>
+						</div>
+					</form>
+				</div><!--/#contact-->
+			</div><!--/#wrapper-->
+		</section><!--/#signUp /.signUp-->
+	
+<!----------------------------------------------------------------------------------------------------------
+
+1. A design pattern is a repeatable solution to a occuring problem in software design.  A design pattern is usually an unfinished design that can be transferred directly into your code.  It is generally a template to be used in many situations.
+
+2. jQuery is a library for Javascript programmers.  It simplifies the development of web 2.0 applications by offering fast and feature-rich plugins that work across a mulitude of browswers.  jQuery helps to keep code simple by handling events and performing animations.
+
+3. Millions of coders are using jQuery to help design feature rich websites.  They are easy to learn and can be applied to several web based applications, due in part to its support in most browswers.  It is lightweight with a wide range of plugins that can be customized for better client side scripting.
+
+4. JQuery has a load event for exectuing code when the webpage is rendered.  The one downside is that the load event can not be triggered until all assets of the code have been received.  This includes assets such as images and correct script.Another important thing to remember is to also reference external stylesheets or to embed style elements before referencing the jQuery scripts in your HTML.  
+
+5. With jQuery you can animate CSS properties with the .animate() effect.  With it you can animate your CSS to a set value or to a relative value.  Easing describes the manner in which an effect can occur.  jQuering only includes two methods of easing which are linear and swing.  There are various easing plugins available in you want more natural tranisiotns in your web site.
+
+6. One plugin that was not used in the website was jParallax.  It essentially transforms a selected element in a viewpoint into absolutely positioned layers within it.  The layers then move within the veiwpoint to create a parallax effect.
+
+7. Link to jQuery Plugin Directory  ******  "http://plugins.jquery.com/"
+
+8. A vendor prefix is a way for the browswer to add support for new CSS features.  They may or may not be a formal specification and are often referenced as 'experimental' by some.  Vendor prefixes vary depending on which browser is used.  For Safari and Chrome the prefix is -webkit-, for Firefox it is -moz-, for Microsoft it is -ms-, and for Opera it is -0-.
+
+9. Transition-Timing-Function is a CSS property that describes how the intermediate values of of effected properties are calculated.  This allows you to vary the speed of the properties duration to vary by establishing an acceleration curve.  You may define multiple properties to transition, however you must use <timing-function> for every one you apply the transition to.  You may also specify how the transition will be applied such as ease, ease-in, and linear.
+
+10. The history of animation is relevant to web animation because knowing the techinques used up until this point will help us understand todays methods.  Modern day software still uses terminology and digital methods of traditional animation.
+
+11. GIF stands for 'Graphics Interchange Format'.  It was created in 1987 by a company named CompuServe and it was made to provide colour palettes for modems, although only having 256 colors.  It was an 8-Bit buffer and downloaded better then other formats.
+
+------------------------------------------------------------------------------------------------------------>
+
+</body>
+
+</html>
+
+
+
+
+
+<!--     lvw/.     -->
